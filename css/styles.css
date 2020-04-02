@@ -131,3 +131,44 @@ p {
 .pricing-colomn {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*Call to Action Section*/
+
+#cta {
+
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+    
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*Footer Section*/
+
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.icon-f {
+    margin: 0.9rem;
+}
